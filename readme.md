@@ -9,3 +9,6 @@
 - https://www.grid.com.ar/
 - https://www.solodeportes.com.ar/
 - https://www.dexter.com.ar
+
+
+# Tablero de trabajo https://trello.com/b/VCm0T09G/tiendasports
