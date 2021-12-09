@@ -9,17 +9,24 @@ app.listen(3000, () => console.log ('Esto fue exitoso'));
 
 app.use(express.static('public'));
 
-app.get('/', function(req, res) {
-    let htmlPath = path.resolve(__dirname, './views/home.html')
-    res.sendFile(htmlPath) 
+// Motor de plantilla
+
+app.set("view engine", "ejs");
+app.set("views", __dirname + "/views");
+
+
+app.get('/', (req, res)=>{
+    res.render("home"); 
 });
 
 app.get('/login', function(req, res) {
-        let htmlPath = path.resolve(__dirname, './views/login.html')
-        res.sendFile(htmlPath) 
-    });
+    res.render("login") 
+});
 
 app.get('/register', function(req, res) {
-            let htmlPath = path.resolve(__dirname, './views/register.html')
-            res.sendFile(htmlPath) 
+        res.render("register") 
+});
+
+app.get('/cart', function(req, res) {
+    res.render("cart") 
 });
