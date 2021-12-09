@@ -765,3 +765,54 @@ img {
       display: none;
     }
   }
+
+/* REGISTER */
+
+  .mainRegister { text-align: center;
+
+
+font  : 21px sans-serif;
+
+padding : 2em;
+  margin  : 0;
+
+background : rgb(209, 209, 209);
+}
+
+form {
+  position: relative;
+
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  }
+.nombre {
+  position: absolute;
+  left : 398px;
+  top  : 235px;
+};
+
+.correo {
+
+}
+
+.control-formularios{
+
+}
+
+.password{
+
+}
+
+.confirmar-password{
+
+}
+
+.pais {
+
+}
+
+.cp {
+
+}
